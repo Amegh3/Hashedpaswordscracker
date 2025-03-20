@@ -1,72 +1,53 @@
-Hashed Password Cracker 
 
-This project is part of an IBM cybersecurity project that focuses on cracking hashed passwords using Python. It offers a command-line interface (CLI) and a graphical user interface (GUI) for ease of use. This tool helps to understand the time taken to crack passwords and provides feedback on password strength to encourage stronger passwords.
+🔐 Hashed Password Cracker
 
-Features
-1.Supports multiple hashing algorithms like MD5, SHA-1, SHA-256.
-2.show the time taken to crack the password, allowing users to understand the password's strength.
-3. Provides feedback with remarks on password strength. If the password is weak, suggestions for creating a strong password will be provided.
-4.Command-line interface (CLI) and graphical user interface (GUI).
-5.Dictionary-based attack using custom wordlists.
+A cybersecurity tool developed as part of an IBM project, designed to crack hashed passwords using Python. It features both a Command-Line Interface (CLI) and a Graphical User Interface (GUI), helping users analyze password strength and security risks.
+🚀 Features
 
-Requirements
-Make sure you have the following installed:
+✔ Supports multiple hashing algorithms (MD5, SHA-1, SHA-256)
+✔ Displays time taken to crack passwords
+✔ Password strength analysis with improvement suggestions
+✔ Dual interface: CLI & GUI
+✔ Dictionary-based attack using custom wordlists
+📌 Requirements
 
-Python 3.x
-Required Python packages (listed in requirements.txt)
-Installation
-Clone the repository:
+    Python 3.x
+    Dependencies listed in requirements.txt
 
-bash
-Copy code
-git clone https://github.com/Amegh3/Hashedpasswordcracker.git
-cd Hashedpasswordcracker
-Install the required dependencies:
+🔧 Installation
 
-bash
-Copy code
-pip install -r requirements.txt
-Usage
-Command-Line Interface (CLI)
-To run the password cracker using the command-line interface:
+git clone https://github.com/Amegh3/Hashedpasswordcracker.git  
+cd Hashedpasswordcracker  
+pip install -r requirements.txt  
 
-bash
-Copy code
-python hashcrack.py
-Graphical User Interface (GUI)
-To run the password cracker using the GUI:
+⚡ Usage
+CLI Mode
 
-bash
-Copy code
-python advanced_hash_cracker_gui.py
-Wordlist Size and Download
-Note: Due to GitHub's size limitations, the full rockyou.txt wordlist (14 million passwords) cannot be included in this repository. You can download the full wordlist here:
+python hashcrack.py  
 
-Download full rockyou.txt
-If you need to reduce the size of the wordlist, consider limiting the passwords to certain lengths or truncating the file.
+GUI Mode
 
-Example Usage
-Select Hash Algorithm: Choose the hashing algorithm from the available options (e.g., MD5, SHA-1, etc.).
-Upload Hashed Password: Provide the hashed password that needs to be cracked.
-Load Wordlist: Load a custom wordlist or dictionary file (e.g., rockyou.txt).
-Crack the Password: The tool will attempt to match the hash with the words in the dictionary to find the original password.
-View Results:
-Time Taken: The time it took to crack the password will be displayed.
-Password Strength: Feedback on whether the password is weak, medium, or strong. Suggestions will be provided for creating stronger passwords if needed.
-Ethical Use Disclaimer
-This tool is intended for ethical purposes only. It is designed for educational and cybersecurity testing within legal and ethical guidelines. The misuse of this tool for illegal or unethical activities is strictly prohibited.
+python advanced_hash_cracker_gui.py  
 
-Disclaimer: Use this tool responsibly and only with explicit permission.
+📂 Wordlist Information
 
-Contributing
-If you wish to contribute to the project, feel free to submit a pull request or open an issue. Contributions are always welcome!
+Due to GitHub size limits, the full rockyou.txt wordlist (14M passwords) is not included.
+🔗 Download Here: rockyou.txt (Replace with actual link)
+⚠️ Ethical Use Disclaimer
 
-License
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+This tool is strictly for educational and ethical cybersecurity purposes. Misuse for illegal activities is prohibited.
+🤝 Contributing
 
-IBM Project
-This project is a part of an IBM Inovaction centre for education to understand the mechanisms behind password security and to educate individuals and organizations on best practices in cybersecurity. The tool helps simulate real-world scenarios for ethical hacking and password recovery.
+Contributions are welcome!
 
-Contact
-For any queries or support, contact:
-18088@yenepoya.edu.in
+    Fork the repository
+    Create a new branch
+    Submit a pull request 🚀
+
+📜 License
+
+Licensed under Apache License 2.0. See LICENSE for details.
+📧 Contact
+
+For support or queries:
+📩 Email: 18088@yenepoya.edu.in
