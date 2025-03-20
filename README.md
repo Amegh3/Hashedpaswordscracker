@@ -9,16 +9,11 @@ A cybersecurity tool developed as part of an IBM project, designed to crack hash
 ✔ Password strength analysis with improvement suggestions
 ✔ Dual interface: CLI & GUI
 ✔ Dictionary-based attack using custom wordlists
-📌 Requirements
-
-    Python 3.x
-    Dependencies listed in requirements.txt
 
 🔧 Installation
 
 git clone https://github.com/Amegh3/Hashedpasswordcracker.git  
 cd Hashedpasswordcracker  
-pip install -r requirements.txt  
 
 ⚡ Usage
 CLI Mode
